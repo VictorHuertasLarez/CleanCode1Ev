@@ -16,6 +16,7 @@ public class Punto2D {
     private static final String NOMBRE = "Punto";//Utilizamos para ahorrar memoria
     private int id;
     
+    //El metodo calcula la distancia entre dos objetos de la clase punto
     public double calcularDistancia( Punto2D param ){
         double distancia_calculada =
                 Math.sqrt(
